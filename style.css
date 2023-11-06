@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: monospace;
+}
+.rounded-button, .home-button{
+    height: 215px;
+    width: 224px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: solid white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: monospace;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+.home-button{
+    height:100px;
+    width: 100%;
+}
+.home-button:hover{
+    background-color:white;
+    color:black;
+}
+.rounded-button:hover{
+    background-color:white;
+    color:black;
+}
+a{
+    color:white;
+    transition: color 0.3s;
+}
+a:hover{
+    color:cyan;
+}
+table {
+    font-family: monospace;
+    border-collapse: collapse;
+    width: 500px;
+    font-size: 20px;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
