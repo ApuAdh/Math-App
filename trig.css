@@ -1,0 +1,11 @@
+div{
+    border: solid black;
+    width:40%;
+}
+#div1{
+    float:left;
+}
+#div2{
+    float:left;
+    width:50%;
+}
